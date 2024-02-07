@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Decodificador</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="./imgs/Logo.svg" alt="Logo da Alura">
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <textarea class="textoarea" required placeholder="Digite seu texto..."></textarea>
+
+      <div class="alerta">
+        <img src="./imgs/Frame 1.svg" alt="icone-atencao">
+      </div>
+
+      <div class="botoes">
+        <button type="button" class="criptografar" onClick="criptografia()">Criptografar</button>
+        <button type="button" class="descriptografar" onClick="descriptografia()">Descriptografar</button>
+      </div>
+    </section>
+
+    <section class="resultado">
+      <textarea class="mensagem" cols="20 " rows="11 " placeholder=""></textarea>
+      <h2>Nenhuma mensagem encontrada</h2>
+      <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+      <button type="button" class="copiar" onClick="copia()">Copiar</button>
+    </section>
+  </main>
+
+  <footer>
+    <p class="footer-comercial">Desenvolvido por Gabriel Silva &copy; - 2024</p>
+  </footer>
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
